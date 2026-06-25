@@ -1,13 +1,19 @@
 # Debug Lab Frontend Challenge
 
+## Live Demo
+
+* **Live Demo:** https://haylee1013.github.io/debuglab-frontend-challenge/
+* **GitHub Repository:** https://github.com/haylee1013/debuglab-frontend-challenge
+
 ## Overview
 
-This repository contains two responsive webpages developed for the **Debug Lab Frontend Developer Technical Assessment**:
+This repository contains two responsive webpages developed for the **Debug Lab Frontend Developer Technical Assessment**.
 
 * `software-development.html`
 * `stem-workshop.html`
 
 The **Holiday Workshop** page (`index.html`) serves as the landing page for this project. It recreates the Debug Lab landing page navigation and provides a starting point for accessing both assessment pages through two interactive cards.
+
 
 
 ## How to Run
