@@ -9,9 +9,13 @@ The project also includes a lightweight local `index.html` so the shared navigat
 
 ## How to Run
 
-Open `index.html` directly in a browser, then use the navigation to visit the Software Development and STEM Workshop pages.
+This project is built using HTML5, CSS3, and vanilla JavaScript, so no installation or build process is required.
 
-No build step is required.
+1. Open the project folder in Visual Studio Code.
+2. Install the Live Server extension if it is not already installed.
+3. Right-click index.html and select Open with Live Server.
+4. The website will open in your default browser.
+5. Use the navigation bar to access the Software Development and STEM Workshop pages.d.
 
 ## Tech Stack
 
