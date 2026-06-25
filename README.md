@@ -7,7 +7,7 @@ This repository contains two responsive webpages developed for the **Debug Lab F
 * `software-development.html`
 * `stem-workshop.html`
 
-The project also includes a lightweight `index.html` that recreates the Debug Lab landing page navigation, allowing both assessment pages to be accessed from a single entry point.
+The **Holiday Workshop** page (`index.html`) serves as the landing page for this project. It recreates the Debug Lab landing page navigation and provides a starting point for accessing both assessment pages through two interactive cards.
 
 
 ## How to Run
@@ -33,14 +33,18 @@ This project is built using **HTML5, CSS3, and vanilla JavaScript**, so no insta
 The project can also be tested on a mobile device by deploying it to a static hosting service such as **GitHub Pages**, **Netlify**, or **Vercel**. Once deployed, simply open the generated URL on any modern mobile browser to verify the responsive layout, navigation, and mobile menu.
 
 
+
 ## Navigation Behaviour
 
-The navigation bar recreates the structure of the official Debug Lab website.
+The Holiday Workshop landing page contains two clickable cards:
 
-* **Software Development** and **STEM Workshop** open the assessment pages included in this project.
-* The remaining navigation items (Programs, Events, Marketplace, Wall of Fame, Leaderboard, Coaches, and Student) redirect to the official Debug Lab website.
+* **Software Development** → Opens `software-development.html`
+* **STEM Workshop** → Opens `stem-workshop.html`
 
-**Note:** After navigating to the official Debug Lab website, the browser leaves this local project. To continue testing the assessment pages, simply use your browser's **Back** button to return to `index.html`.
+The remaining navigation items (Programs, Events, Marketplace, Wall of Fame, Leaderboard, Coaches, and Student) redirect to the official Debug Lab website.
+
+**Note:** After navigating to the official Debug Lab website, the browser leaves this local project. To continue testing the assessment pages, simply use your browser's **Back** button to return to the Holiday Workshop landing page (`index.html`).
+
 
 
 ## Tech Stack
