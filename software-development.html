@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Debug Lab software development tracks for kids and teens aged 7-17." />
+    <title>Software Development | Debug Lab</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <div class="mobile-overlay" data-menu-overlay></div>
+    <aside class="mobile-drawer" aria-label="Mobile navigation">
+      <div class="drawer-head">
+        <a class="brand" href="index.html" aria-label="Debug Lab home"><span class="brand-mark material-symbols-outlined" aria-hidden="true">code_blocks</span><span><strong class="brand-title">DEBUG <span>LAB</span></strong><span class="brand-kicker">Skill Learning Center</span></span></a>
+        <button class="drawer-close" type="button" data-menu-close aria-label="Close menu"><span class="material-symbols-outlined" aria-hidden="true">close</span></button>
+      </div>
+      <nav class="drawer-nav" aria-label="Mobile primary">
+        <div class="drawer-section">
+          <button class="drawer-toggle" type="button" data-drawer-toggle aria-expanded="false" aria-controls="mobile-programs">Programs<span class="material-symbols-outlined" aria-hidden="true">chevron_right</span></button>
+          <div class="drawer-submenu" id="mobile-programs">
+            <a class="drawer-link" href="index.html"><span class="material-symbols-outlined" aria-hidden="true">precision_manufacturing</span>Holiday Workshop</a>
+            <a class="drawer-link" href="software-development.html"><span class="material-symbols-outlined" aria-hidden="true">code</span>Software Development</a>
+            <a class="drawer-link" href="stem-workshop.html"><span class="material-symbols-outlined" aria-hidden="true">science</span>STEM Workshops</a>
+          </div>
+        </div>
+        <a class="drawer-link" href="https://www.thedebuglab.com/debug/coder/marketplace.php"><span class="material-symbols-outlined" aria-hidden="true">storefront</span>Marketplace</a>
+        <a class="drawer-link" href="https://www.thedebuglab.com/debug/coder/walloffame.php"><span class="material-symbols-outlined" aria-hidden="true">workspace_premium</span>Wall of Fame</a>
+        <a class="drawer-link" href="https://www.thedebuglab.com/debug/coder/leaderboard.php"><span class="material-symbols-outlined" aria-hidden="true">leaderboard</span>Leaderboard</a>
+      </nav>
+      <div class="drawer-actions"><a class="coach-link" href="https://www.thedebuglab.com/debug/coach/login.php">Coaches</a><a class="student-button" href="https://www.thedebuglab.com/debug/search.php">Student</a></div>
+    </aside>
+    <header class="site-header">
+      <div class="nav-shell">
+        <a class="brand" href="index.html" aria-label="Debug Lab home"><span class="brand-mark material-symbols-outlined" aria-hidden="true">code_blocks</span><span><strong class="brand-title">DEBUG <span>LAB</span></strong><span class="brand-kicker">Skill Learning Center</span></span></a>
+        <nav class="desktop-nav" aria-label="Primary navigation">
+          <div class="nav-group">
+            <button class="nav-trigger" type="button">Programs<span class="material-symbols-outlined" aria-hidden="true">expand_more</span></button>
+            <div class="nav-dropdown">
+              <a class="dropdown-link" href="index.html"><span class="dropdown-icon material-symbols-outlined" aria-hidden="true">precision_manufacturing</span><span class="dropdown-text">Holiday Workshop</span></a>
+              <a class="dropdown-link" href="software-development.html"><span class="dropdown-icon material-symbols-outlined" aria-hidden="true">code</span><span class="dropdown-text">Software Development</span></a>
+              <a class="dropdown-link" href="stem-workshop.html"><span class="dropdown-icon material-symbols-outlined" aria-hidden="true">science</span><span class="dropdown-text">STEM Workshops</span></a>
+            </div>
+          </div>
+          <div class="nav-group">
+            <button class="nav-trigger" type="button">Events<span class="material-symbols-outlined" aria-hidden="true">expand_more</span></button>
+            <div class="nav-dropdown">
+              <a class="dropdown-link" href="https://www.thedebuglab.com/debug/index.html"><span class="dropdown-icon material-symbols-outlined" aria-hidden="true">calendar_month</span><span class="dropdown-text">Upcoming Events</span></a>
+              <a class="dropdown-link" href="https://www.thedebuglab.com/debug/index.html"><span class="dropdown-icon material-symbols-outlined" aria-hidden="true">trophy</span><span class="dropdown-text">Competitions</span></a>
+            </div>
+          </div>
+          <a class="nav-link" href="https://www.thedebuglab.com/debug/coder/marketplace.php">Marketplace</a><a class="nav-link" href="https://www.thedebuglab.com/debug/coder/walloffame.php">Wall of Fame</a><a class="nav-link" href="https://www.thedebuglab.com/debug/coder/leaderboard.php">Leaderboard</a>
+        </nav>
+        <div class="nav-actions"><a class="coach-link" href="https://www.thedebuglab.com/debug/coach/login.php">Coaches</a><a class="student-button" href="https://www.thedebuglab.com/debug/search.php">Student</a><button class="menu-button" type="button" data-menu-open aria-label="Open menu" aria-expanded="false"><span class="material-symbols-outlined" aria-hidden="true">menu</span></button></div>
+      </div>
+    </header>
+    <main class="page">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Software Development</p>
+            <h1>Build real projects, not just <span class="text-accent">coding worksheets</span></h1>
+            <p class="lead">A structured coding pathway for kids and teens to learn computational thinking, web design, JavaScript, game development, and confident project presentation.</p>
+            <div class="button-row"><a class="button" href="https://forms.gle/2V9yJhV2zKYsVjnz5">Book a Free Trial<span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a><a class="button button--secondary" href="#tracks">View Tracks</a></div>
+          </div>
+          <div class="hero-visual" aria-label="Software development learning preview">
+            <div class="hero-card">
+              <div class="terminal-bar"><span class="terminal-dot"></span><span class="terminal-dot"></span><span class="terminal-dot"></span></div>
+              <div class="terminal-body">
+                <div class="code-line"><strong>const</strong><span>student = "future builder";</span></div>
+                <div class="code-line"><strong>learn</strong><span>logic + design + debugging</span></div>
+                <div class="code-line"><strong>ship</strong><span>websites, games, apps</span></div>
+                <div class="code-line"><strong>&gt;_</strong><span>present with confidence</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section" id="tracks">
+        <div class="container">
+          <div class="section-heading center"><p class="section-kicker">Coding Tracks</p><h2>From first logic blocks to portfolio-ready builds</h2><p class="lead">Students move through practical tracks that blend fundamentals, creativity, and coach feedback.</p></div>
+          <div class="grid grid--cards">
+            <article class="card"><span class="card-icon material-symbols-outlined" aria-hidden="true">psychology</span><h3>CS Fundamentals</h3><p class="muted">Ages 7-10. Learn sequencing, loops, conditions, patterns, and debugging through playful coding challenges.</p><ul class="tag-list"><li>Logic</li><li>Problem Solving</li><li>Debugging</li></ul></article>
+            <article class="card"><span class="card-icon material-symbols-outlined" aria-hidden="true">web</span><h3>Web Design</h3><p class="muted">Ages 10-14. Create responsive pages with semantic HTML, clean CSS, layout systems, and accessible UI patterns.</p><ul class="tag-list"><li>HTML</li><li>CSS</li><li>Responsive UI</li></ul></article>
+            <article class="card"><span class="card-icon material-symbols-outlined" aria-hidden="true">javascript</span><h3>JavaScript Coding</h3><p class="muted">Ages 12-17. Build interactive features, learn functions and events, and connect logic to real user actions.</p><ul class="tag-list"><li>Functions</li><li>Events</li><li>DOM</li></ul></article>
+            <article class="card"><span class="card-icon material-symbols-outlined" aria-hidden="true">sports_esports</span><h3>Game Development</h3><p class="muted">Ages 11-17. Design game loops, mechanics, scoring, and feedback while learning how to iterate from testing.</p><ul class="tag-list"><li>Game Logic</li><li>Physics</li><li>Iteration</li></ul></article>
+          </div>
+        </div>
+      </section>
+      <section class="section section--cream">
+        <div class="container grid grid--two">
+          <div class="section-heading"><p class="section-kicker">Outcomes</p><h2>What students learn</h2><p class="lead">Every lesson is designed to help learners think clearly, build independently, and explain their choices.</p></div>
+          <ul class="feature-list">
+            <li><span class="material-symbols-outlined" aria-hidden="true">check_circle</span><span>Break large problems into smaller, testable steps.</span></li>
+            <li><span class="material-symbols-outlined" aria-hidden="true">check_circle</span><span>Use HTML, CSS, and JavaScript to create interactive projects.</span></li>
+            <li><span class="material-symbols-outlined" aria-hidden="true">check_circle</span><span>Debug errors with patience, evidence, and clear reasoning.</span></li>
+            <li><span class="material-symbols-outlined" aria-hidden="true">check_circle</span><span>Present completed work with vocabulary used by real developers.</span></li>
+          </ul>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container">
+          <div class="section-heading center"><p class="section-kicker">Roadmap</p><h2>A practical path from idea to launch</h2></div>
+          <div class="grid grid--cards">
+            <article class="step-card"><span class="step-number">Step 01</span><h3>Discover</h3><p class="muted">Assess the student’s level and choose a track that matches their confidence and pace.</p></article>
+            <article class="step-card"><span class="step-number">Step 02</span><h3>Build</h3><p class="muted">Complete focused projects with coach feedback, checkpoints, and iteration.</p></article>
+            <article class="step-card"><span class="step-number">Step 03</span><h3>Showcase</h3><p class="muted">Package the project, explain the logic, and prepare for the next challenge.</p></article>
+          </div>
+        </div>
+      </section>
+      <section class="section"><div class="container"><div class="cta-band"><p class="eyebrow">Trial Class</p><h2>Find the right software track for your child.</h2><p class="lead">Start with a guided session and let our coaches recommend the best next step.</p><div class="button-row"><a class="button" href="https://forms.gle/2V9yJhV2zKYsVjnz5">Book a Free Trial</a><a class="button button--secondary" href="https://wasap.my/60127651253">Contact Us</a></div></div></div></section>
+      <section class="section section--cream">
+        <div class="container">
+          <div class="section-heading center"><p class="section-kicker">FAQ</p><h2>Software Development questions</h2></div>
+          <div class="faq-list">
+            <details class="faq-item"><summary>Does my child need coding experience?</summary><p>No. Students can begin with fundamentals and progress into web, JavaScript, and game projects when they are ready.</p></details>
+            <details class="faq-item"><summary>Are the classes project-based?</summary><p>Yes. The track focuses on building visible projects so students can connect concepts to outcomes.</p></details>
+            <details class="faq-item"><summary>What should students bring?</summary><p>A laptop is recommended for full coding sessions. The coach can advise based on the selected track.</p></details>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="footer-grid">
+        <div><div class="footer-brand"><span class="brand-mark material-symbols-outlined" aria-hidden="true">terminal</span><strong class="brand-title">DEBUG <span>LAB</span></strong></div><p class="footer-copy">A skill learning center where children aged 7-17 learn, train, and master technology skills for a better future.</p></div>
+        <div><h2 class="footer-title">Programs</h2><ul class="footer-list"><li><a href="software-development.html">Software Development</a></li><li><a href="stem-workshop.html">STEM Workshops</a></li><li><a href="index.html">Holiday Workshop</a></li></ul></div>
+        <div><h2 class="footer-title">Quick Links</h2><ul class="footer-list"><li><a href="https://www.thedebuglab.com/debug/index.html">Our Coaches</a></li><li><a href="https://www.thedebuglab.com/debug/index.html">Upcoming Events</a></li><li><a href="https://www.thedebuglab.com/debug/search.php">Parent Portal</a></li></ul></div>
+        <div><h2 class="footer-title">Get In Touch</h2><ul class="footer-list"><li><span class="material-symbols-outlined" aria-hidden="true">location_on</span><span>Debug Lab Skills Learning Centre, Kajang, Selangor</span></li><li><span class="material-symbols-outlined" aria-hidden="true">call</span><span>+6012 765 1253</span></li><li><span class="material-symbols-outlined" aria-hidden="true">mail</span><span>debuglab.coach@gmail.com</span></li></ul></div>
+      </div>
+      <div class="footer-bottom">© 2026 The Debug Lab Education. All rights reserved.</div>
+    </footer>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
