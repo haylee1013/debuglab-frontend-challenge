@@ -1,46 +1,92 @@
 # Debug Lab Frontend Challenge
 
-Two responsive Debug Lab pages built for the front-end developer technical assessment:
+## Overview
 
-- `software-development.html`
-- `stem-workshop.html`
+This repository contains two responsive webpages developed for the **Debug Lab Frontend Developer Technical Assessment**:
 
-The project also includes a lightweight local `index.html` so the shared navigation can be tested end to end.
+* `software-development.html`
+* `stem-workshop.html`
+
+The project also includes a lightweight `index.html` that recreates the Debug Lab landing page navigation, allowing both assessment pages to be accessed from a single entry point.
+
 
 ## How to Run
 
-Open `index.html` directly in a browser, then use the navigation to visit the Software Development and STEM Workshop pages.
+This project is built using **HTML5, CSS3, and vanilla JavaScript**, so no installation, package manager, or build process is required.
 
-No build step is required.
+### Option 1 (Recommended)
+
+1. Open the project folder in **Visual Studio Code**.
+2. Install the **Live Server** extension if it is not already installed.
+3. Right-click `index.html` and select **Open with Live Server**.
+4. The website will open in your default browser.
+5. Use the navigation bar to access the **Software Development** and **STEM Workshop** pages.
+
+### Option 2
+
+1. Open `index.html` directly in any modern web browser.
+2. Navigate between pages using the navigation bar.
+
+
+## Mobile Testing
+
+The project can also be tested on a mobile device by deploying it to a static hosting service such as **GitHub Pages**, **Netlify**, or **Vercel**. Once deployed, simply open the generated URL on any modern mobile browser to verify the responsive layout, navigation, and mobile menu.
+
+
+## Navigation Behaviour
+
+The navigation bar recreates the structure of the official Debug Lab website.
+
+* **Software Development** and **STEM Workshop** open the assessment pages included in this project.
+* The remaining navigation items (Programs, Events, Marketplace, Wall of Fame, Leaderboard, Coaches, and Student) redirect to the official Debug Lab website.
+
+**Note:** After navigating to the official Debug Lab website, the browser leaves this local project. To continue testing the assessment pages, simply use your browser's **Back** button to return to `index.html`.
+
 
 ## Tech Stack
 
-- Semantic HTML5
-- Modern CSS with custom properties, Flexbox, Grid, `gap`, and `clamp()`
-- Vanilla JavaScript for mobile navigation and active link state
-- Google Fonts: Outfit
-- Material Symbols for icon consistency with the Debug Lab landing page
+* HTML5
+* CSS3
+* Vanilla JavaScript
+* Google Fonts (Outfit)
+* Material Symbols
 
-I chose plain HTML, CSS, and JavaScript because the assessment pages are static, and the brief asked for clean, maintainable frontend code without unnecessary framework overhead.
+The project was intentionally developed using plain HTML, CSS, and JavaScript because the assessment pages are static and the objective was to demonstrate clean, maintainable frontend development without unnecessary framework overhead.
 
-## Key Decisions
 
-- The official PDF was treated as the source of truth for scope, content requirements, accessibility, responsiveness, and scoring criteria.
-- The navigation follows the actual Debug Lab landing page structure: logo lockup, Programs dropdown, Events dropdown, Marketplace, Wall of Fame, Leaderboard, Coaches link, Student button, and mobile drawer.
-- The implementation recreates the design in original code. It does not copy the Debug Lab source code or use Tailwind/Bootstrap.
-- The color system is constrained to the requested palette: `#000000`, `#F24405`, `#F25C05`, `#F28705`, and `#F2F0E4`.
-- Reusable page patterns were centralized in `assets/css/style.css` and `assets/css/navbar.css` so both pages feel like one product.
+## Design Decisions
 
-## Accessibility Notes
+* The implementation follows the requirements and evaluation criteria described in the provided assessment PDF.
+* The navigation mirrors the structure and user experience of the official Debug Lab landing page, including the logo, navigation items, dropdown menus, mobile drawer, and Student button.
+* All pages were implemented using original HTML, CSS, and JavaScript. No source code from the Debug Lab website was copied, and no frontend frameworks such as Bootstrap or Tailwind CSS were used.
+* The design follows the required color palette:
 
-- Pages use semantic landmarks: `header`, `nav`, `main`, `section`, `article`, and `footer`.
-- The mobile menu exposes `aria-expanded`, supports Escape to close, and closes when a link or overlay is selected.
-- Current page links are marked with `aria-current="page"` by JavaScript.
-- Focus states are visible and keyboard-accessible.
+  * `#000000`
+  * `#F24405`
+  * `#F25C05`
+  * `#F28705`
+  * `#F2F0E4`
+* Shared styles are centralized in `assets/css/style.css` and `assets/css/navbar.css` to maintain consistency across all pages and reduce duplicated code.
 
-## What I Would Improve With More Time
 
-- Replace placeholder links for Marketplace, Wall of Fame, Leaderboard, Coaches, and Student with confirmed production URLs.
-- Add locally hosted optimized image assets if provided by Debug Lab.
-- Add a small shared HTML include/build step to remove repeated header and footer markup while keeping the deployed output static.
-- Run a full browser/device QA matrix and Lighthouse accessibility/performance checks before final submission.
+## Accessibility
+
+* Semantic HTML5 elements are used throughout (`header`, `nav`, `main`, `section`, `article`, and `footer`).
+* The mobile navigation supports keyboard interaction and can be closed using the **Escape** key.
+* The current page is identified using `aria-current="page"`.
+* Interactive elements include visible keyboard focus states to improve accessibility.
+
+
+## Browser Support
+
+The project has been developed and tested using the latest version of **Google Chrome** and is expected to work correctly in other modern browsers that support HTML5, CSS3, and ES6 JavaScript.
+
+
+## Future Improvements
+
+Given additional time, the following improvements could be made:
+
+* Confirm all external Debug Lab navigation URLs with the team before final production deployment.
+* Replace placeholder image assets with optimized production assets provided by Debug Lab.
+* Extract the shared header and footer into reusable components while keeping the final output as static HTML.
+* Perform cross-browser and cross-device testing, together with Lighthouse accessibility and performance audits, before production deployment.
